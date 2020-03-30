@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url(normalize.css);
+
+*{ 
+  box-sizing: border-box;
+}
+
+body { 
+  
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(../images/bg.png);
+}
+
+.container {
+  width: 1140px;
+  margin: auto;  
+  overflow: hidden;
+}
+
+.main-header {
+  background-color: tomato;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+ul, ol {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.logo,
+.left-navbar,
+.left-navbar li,
+.right-navbar li{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.left-navbar{
+  margin-left: 30px;
+}
+
+.right-navbar{
+  float: right;
+  margin-top: 11px;
+}
+
+.left-navbar a,
+.right-navbar a{  
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.left-navbar a:hover,
+.right-navbar a:hover{
+  color: black;
+}
+
+.product-list {
+  width: 800px;
+  background-color: #ffffff;
+  float: left;    
+}
+
+.tutorial {
+  width: 320px;  
+  /*display: inline-block;*/
+  float: right;  
+}
+
+.product-detail{
+  width: 380px; 
+  float: left;
+  margin: 10px;
+}
+
+.product-detail img{
+  width: 100%;
+}
+
+.verMas {
+  background-color: tomato;
+  padding: 2% 5%;
+  color: white;
+}
+
+.verMas:hover{
+  background-color: black;
+}
+
+.tutorial-tittle{
+  background-color: white;
+  border: solid 1px #77b1b6;
+  padding: 10px;
+  margin: 0 0 30px;
+}
+
+.tutorial-detail li{
+  background-color:#ffffff;
+  border-bottom: solid 1px #77b1b6;
+  border-right: solid 1px #77b1b6;
+  padding: 10px;
+
+}
+
+.tutorial-detail{
+  margin-bottom: 30px;
+  border-top: solid 1px #77b1b6;
+  border-left: solid 1px #77b1b6;
+}
+
+.tutorial-detail img{
+  margin-right: 15px;
+  float: left;
+}
+
+.adverting{
+  padding: 0 10px 15px;
+  border: solid 1px #77b1b6;
+}
+
+.adverting img{
+  width: 100%;
+  margin-top: 15px;
+}
